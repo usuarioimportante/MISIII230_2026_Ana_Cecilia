@@ -1,0 +1,10 @@
+<resultados>
+	<mundos>
+		<mundo nombre="mundo_0">
+			<linea fila="17" compresionDeCeros="true">(7) 65535 </linea>
+		</mundo>
+	</mundos>
+	<programas>
+		<programa nombre="p1" resultadoEjecucion="MOVIMIENTO INVALIDO"/>
+	</programas>
+</resultados>
