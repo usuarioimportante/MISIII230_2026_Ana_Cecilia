@@ -1,0 +1,120 @@
+iniciar-programa
+	define-nueva-instruccion gira-derecha como
+    	inicio
+        	gira-izquierda;
+            gira-izquierda;
+            gira-izquierda;
+        fin;
+    define-nueva-instruccion letra-c como
+    	inicio
+        	deja-zumbador;
+        	avanza;
+            deja-zumbador;
+            gira-izquierda;
+            repetir 3 veces 
+            	inicio
+                	avanza;
+                	deja-zumbador;
+                fin;
+            gira-izquierda;
+            repetir 5 veces
+            	inicio
+                	avanza;
+                    deja-zumbador;
+                fin;
+             gira-izquierda;
+             repetir 3 veces 
+            	inicio
+                	avanza;
+                	deja-zumbador;
+                fin;
+              gira-izquierda;
+              avanza;
+              deja-zumbador;
+         fin;
+    define-nueva-instruccion letra-e como
+    	inicio
+        	gira-izquierda;
+            repetir 3 veces
+            	inicio
+                	deja-zumbador;
+                    avanza;
+                fin;
+            deja-zumbador;
+            repetir 2 veces
+            	inicio
+                	gira-derecha;
+            		avanza;
+            		deja-zumbador;
+            		avanza;
+            		deja-zumbador;
+                fin;
+            gira-derecha;
+            gira-derecha;
+            avanza;
+            avanza;
+            gira-derecha;
+            repetir 3 veces
+            	inicio
+                	avanza;
+                    deja-zumbador;
+                fin;
+            gira-derecha;
+            repetir 3 veces
+            	inicio
+                	avanza;
+                    deja-zumbador;
+                fin;
+        fin;
+    define-nueva-instruccion letra-i como
+    	inicio
+        	deja-zumbador;
+        	repetir 5 veces
+            	inicio
+                	avanza;
+                	deja-zumbador;
+                fin;
+        fin;
+    inicia-ejecucion
+    	repetir 10 veces
+        	inicio
+            	avanza;
+            fin;
+        gira-derecha;
+        repetir 5 veces.
+        	inicio
+            	avanza;
+            fin;
+        gira-izquierda;
+    	letra-c;
+        gira-derecha;
+        avanza;
+        avanza;
+        gira-derecha;
+        avanza;
+        gira-izquierda;
+        avanza;
+        avanza;
+        avanza;
+        gira-izquierda;
+        letra-e;
+        repetir 5 veces 
+        	inicio
+           	 	avanza;
+            fin;
+        gira-derecha;
+        avanza;
+        gira-izquierda;
+        gira-izquierda;
+        letra-c;
+        gira-derecha;
+        avanza;
+        avanza;
+        gira-derecha;
+        avanza;
+        gira-izquierda;
+        gira-izquierda;
+        letra-i;
+        	apagate;
+    termina-ejecucion
+finalizar-programa
