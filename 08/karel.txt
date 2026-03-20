@@ -1,0 +1,31 @@
+iniciar-programa
+	define-nueva-instruccion gira-derecha como
+    	inicio
+        	gira-izquierda;
+            gira-izquierda;
+            gira-izquierda;
+        fin;
+    define-nueva-instruccion sigue-muro-derecha como
+    	inicio
+        	si (frente-libre y derecha-bloqueada) entonces
+            	inicio
+                	avanza;
+                fin;
+            si (frente-bloqueado y derecha-bloqueada) entonces
+            	inicio
+                	gira-izquierda;
+                fin;
+            si derecha-libre entonces
+        		inicio
+            		gira-derecha;
+                    avanza;
+            	fin;
+        fin;
+    inicia-ejecucion
+    	mientras no-junto-a-zumbador hacer
+        	inicio
+            	sigue-muro-derecha;
+            fin;
+        apagate;
+    termina-ejecucion
+finalizar-programa
