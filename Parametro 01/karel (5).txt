@@ -1,0 +1,13 @@
+iniciar-programa
+	define-nueva-instruccion gira (ana) como
+    	inicio
+        	repetir ana veces
+            	inicio
+                	gira-izquierda;
+                fin;
+        fin;
+    inicia-ejecucion
+    	gira(100);
+        apagate;
+    termina-ejecucion
+finalizar-programa
